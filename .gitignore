@@ -1,0 +1,20 @@
+# Dependencies — install ulang dengan: npm install
+node_modules/
+
+# Rahasia & artefak lokal per-mesin — JANGAN pernah di-commit
+*.env
+import.env
+.config/
+keystore.json
+password.txt
+mnemonic.txt
+wc.json
+wc-storage/
+
+# Script sekali-pakai (bukan bagian program inti)
+probe-*.mjs
+check-*.mjs
+verify-*.mjs
+sim-*.mjs
+dyor-second-unlock-check.mjs
+RETIRED.md
